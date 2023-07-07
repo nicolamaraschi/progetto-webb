@@ -1,0 +1,211 @@
+
+/* USER LOGIN*/
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.containerLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 400px; /* Larghezza massima del container */
+    margin: 0 auto; /* Centra il container orizzontalmente */
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.labelLogin {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black; /* Colore del testo nero */
+}
+
+.inputLogin[type="email"],
+.inputLogin[type="password"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: gray; /* Colore del testo all'interno del box grigio */
+    background-color: #eee; /* Colore di sfondo del box grigio */
+}
+
+.buttonLogin {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttonLogin:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+
+
+
+
+
+
+
+
+/* ADMIN LOGIN*/
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.containerAdminLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.formAdminLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.inputAdminLogin[type="text"],
+.inputAdminLogin[type="email"],
+.inputAdminLogin[type="password"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: gray; /* Colore del testo all'interno del box grigio */
+    background-color: #eee; /* Colore di sfondo del box grigio */
+}
+
+.labelAdminLogin {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black; /* Aggiunto colore nero ai titoli */
+}
+
+.buttonAdminLogin {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttonAdminLogin:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+
+
+
+
+
+
+/* REGISTER*/
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.containerRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 400px; /* Larghezza massima del container */
+    margin: 0 auto; /* Per centrare il container orizzontalmente */
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.formRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    width: 100%; /* Allarga il form al 100% della larghezza del container */
+    box-sizing: border-box; /* Include il padding e il bordo nella larghezza totale */
+}
+
+.inputRegister[type="text"],
+.inputRegister[type="email"],
+.inputRegister[type="password"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: gray; /* Colore del testo all'interno del box grigio */
+    background-color: #eee; /* Colore di sfondo del box grigio */
+}
+
+.labelRegister {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black; /* Aggiunto colore nero ai titoli */
+}
+
+.buttonRegister {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttonRegister:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}

@@ -1,0 +1,26 @@
+	/* Stile del logo */
+  .navbar-brand img {
+    display: inline-block;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+
+  .input-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .input-group-append button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  /* Stile dei pulsanti di accesso */
+  .navbar-nav li {
+    margin-left: 10px;
+  }
+
+  .navbar-nav a {
+    color: #fff;
+  }

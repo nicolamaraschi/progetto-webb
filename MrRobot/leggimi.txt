@@ -1,0 +1,3 @@
+Progetto alla sua prima versione:progetto che ha lo scopo di conservare nel database, prodotti difficilmente trovabili su internet,
+ admin deve contrallare i prodotti che gli utente inseriscono per verificare che siano veramente difficilmente trovabili su internet.
+ video su youtube:  https://youtu.be/DcaShVIaGJ4
